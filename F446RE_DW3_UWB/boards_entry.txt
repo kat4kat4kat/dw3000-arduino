@@ -1,0 +1,14 @@
+# This file help to add generic board entry.
+# upload.maximum_size and product_line have to be verified
+# and changed if needed.
+# See: https://github.com/stm32duino/Arduino_Core_STM32/wiki/Add-a-new-variant-%28board%29
+
+# Generic F446RETx
+GenF4.menu.pnum.GENERIC_F446RETX_DW3=Generic F446RE (DW3 UWB Support)
+GenF4.menu.pnum.GENERIC_F446RETX_DW3.upload.maximum_size=524288
+GenF4.menu.pnum.GENERIC_F446RETX_DW3.upload.maximum_data_size=131072
+GenF4.menu.pnum.GENERIC_F446RETX_DW3.build.board=GENERIC_F446RETX
+GenF4.menu.pnum.GENERIC_F446RETX_DW3.build.product_line=STM32F446xx
+GenF4.menu.pnum.GENERIC_F446RETX_DW3.build.variant=STM32F4xx/F446RE_DW3_UWB
+GenF4.menu.pnum.GENERIC_F446RETX_DW3.debug.svd_file={runtime.tools.STM32_SVD.path}/svd/STM32F4xx/STM32F446.svd
+
